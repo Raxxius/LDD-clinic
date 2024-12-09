@@ -1,6 +1,6 @@
 body {
-  background-color: aquamarine;
   margin: 0;
+  background-color: aliceblue;
 }
 
 .hero {
@@ -58,11 +58,54 @@ body {
 
 .about p {
   padding: 1rem;
+  margin: 0px;
 }
+
+.services {
+  background-color: pink;
+  margin: 0px;
+}
+
+.services-grid {
+  display: grid;               
+  grid-template-columns: 1fr;  
+  place-items: center;                 
+  margin: 0;                   
+}
+
+.services-box {
+  height: 250px;
+  overflow: hidden;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.services-box h2 {
+  text-align: center;
+}
+
+.services-image {
+  height: 180px;           
+  width: auto;                
+  display: block;  
+}
+
+.services h1 {
+  padding: 2rem;
+  text-align: center;
+}
+
 
 @media (min-width: 768px) {
   .about p {
     max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr;  
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -72,5 +115,10 @@ body {
   .hero-text {
     margin-left: 20%;
     margin-right: auto;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1080px;
   }
 }
