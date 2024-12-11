@@ -11,7 +11,7 @@
       <ul>
         <li><a class="nav-tag" href="#about">About</a></li>
         <li><a class="nav-tag" href="#services">Services</a></li>
-        <li><a class="nav-tag" href="#footer">Contact</a></li>
+        <li><a class="nav-tag" href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div id="hero" class="hero">
@@ -103,7 +103,58 @@
         </div>
       </div>
     </div>
-    <div id="footer" class="footer">Contact</div>
+    <div id="contact" class="contact">
+      <h1>Register for the Clinic</h1>
+      <p class="contact-text">
+        Please note, this is not a real clinic and the registration will not do
+        anything
+      </p>
+      <div class="contact-form-holder">
+        <form action="/submit" method="post" class="contact-form">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" rows="3" required></textarea>
+
+          <label for="borough">Select Your Borough:</label>
+          <select id="borough" name="borough" required>
+            <option value="">-- Please Select --</option>
+            <option value="northvale">Northvale</option>
+            <option value="southgrove">Southgrove</option>
+            <option value="eastwood">Eastwood</option>
+            <option value="westfield">Westfield</option>
+          </select>
+
+          <p>Select Your Preferred Clinic:</p>
+          <div class="radio-box">
+            <div>
+              <input
+                type="radio"
+                id="clinic1"
+                name="clinic"
+                value="clinic_a"
+                required
+              />
+              <label for="clinic1">Clinic A</label>
+            </div>
+            <div>
+              <input type="radio" id="clinic2" name="clinic" value="clinic_b" />
+              <label for="clinic2">Clinic B</label>
+            </div>
+            <div>
+              <input type="radio" id="clinic3" name="clinic" value="clinic_c" />
+              <label for="clinic3">Clinic C</label>
+            </div>
+          </div>
+
+          <button class="submit-button" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
     <footer class="footer">Footer</footer>
   </body>
 </html>

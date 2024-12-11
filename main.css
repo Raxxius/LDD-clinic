@@ -60,7 +60,6 @@ body {
   margin-right: auto;
 }
 
-
 .about {
   background-color: aliceblue;
 }
@@ -111,6 +110,61 @@ body {
   text-align: center;
 }
 
+.contact {
+  background-color: #A8E6CF;
+  margin: 0px;
+}
+
+.contact-text {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.contact h1 {
+  margin: 0px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-form-holder {
+ max-width: 760px;
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form textarea {
+  margin-bottom: 0.5rem;
+}
+
+.contact form select {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form p {
+  margin: 0;
+}
+.radio-box {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.submit-button {
+  width: 200px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media (min-width: 768px) {
   .about p {
