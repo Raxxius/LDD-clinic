@@ -3,6 +3,16 @@ body {
   background-color: aliceblue;
 }
 
+.navbar {
+  background-color: lightblue;
+}
+
+.nav-tag {
+  background-color: aliceblue;
+  height: 50px;
+  width: 100px;
+}
+
 .hero {
   height: 546px;
   overflow: hidden;
