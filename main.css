@@ -48,19 +48,16 @@ body {
 .hero-image {
   min-height: 100%;
   width: auto;
-
-  /* Initial scale for zoom-in effect */
-  transform: scale(1.2);
-  animation: zoomIn 2s ease-out forwards;
+  animation: zoomIn 1s ease-out forwards;
 }
 
 /* Keyframes for zoom-in animation */
 @keyframes zoomIn {
   0% {
-    transform: scale(1.2);
+    transform: scale(1);
   }
   100% {
-    transform: scale(1);
+    transform: scale(1.1);
   }
 }
 .hero-text {
