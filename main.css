@@ -19,8 +19,8 @@ body {
   height: 50px;
   width: 100px;
   display: flex;
-  justify-content: center;  
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   font-weight: 800;
 }
@@ -82,10 +82,10 @@ body {
 }
 
 .services-grid {
-  display: grid;               
-  grid-template-columns: 1fr;  
-  place-items: center;                 
-  margin: 0;                   
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  margin: 0;
 }
 
 .services-box {
@@ -100,9 +100,9 @@ body {
 }
 
 .services-image {
-  height: 180px;           
-  width: auto;                
-  display: block;  
+  height: 180px;
+  width: auto;
+  display: block;
 }
 
 .services h1 {
@@ -111,7 +111,7 @@ body {
 }
 
 .contact {
-  background-color: #A8E6CF;
+  background-color: #a8e6cf;
   margin: 0px;
 }
 
@@ -127,10 +127,10 @@ body {
 }
 
 .contact-form-holder {
- max-width: 760px;
- width: 100%;
- margin-left: auto;
- margin-right: auto;
+  max-width: 760px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-form {
@@ -166,6 +166,49 @@ body {
   margin-right: auto;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: bisque;
+  padding: 2rem;
+  margin: 0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 1rem;
+}
+
+.footer-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.footer-section p {
+  margin: 0.5rem 0;
+}
+
+.footer-section a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-section a img {
+  width: 32px;
+  height: 32px;
+  margin: 0 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-section a img:hover {
+  transform: scale(1.1);
+}
+
 @media (min-width: 768px) {
   .about p {
     max-width: 700px;
@@ -174,7 +217,7 @@ body {
   }
 
   .services-grid {
-    grid-template-columns: 1fr 1fr;  
+    grid-template-columns: 1fr 1fr;
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
