@@ -39,7 +39,6 @@ body {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  height: 546px;
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -251,5 +250,20 @@ body {
   .services-grid {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1080px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-box {
+    justify-content: center;
+  }
+
+  .hero-text {
+    margin-left: 30%;
+    margin-right: auto;
+  }
+
+  .services-grid {
+    max-width: 1200px;
   }
 }
